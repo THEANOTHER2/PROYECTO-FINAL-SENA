@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Corben', cursive;
+  background: url(../img/indexAdmin.jpg) no-repeat center center fixed;
+}
+
+.container1{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 500px;
+  background:rgba(72, 26, 9, 0.39);
+  padding: 50px 50px;
+  border-radius: 15px;
+}
+
+.container2{
+    display: flex;
+    justify-content:center;
+}
+.container2 a{
+   text-decoration: none;
+   color: #EACE9E;
+}
+
+.item {
+  background: #8A2F2A;
+  line-height: 4;
+  padding: 0 2em;
+  margin: 1.5em;
+  color: #EACE9E;
+  position: relative;
+}
+
+.item:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s;
+}
+
+.item:hover:before {
+  width: 100%;
+}
+
+.uno:before {
+  left: 0;
+}
+/*
+.dos:before {
+  left: 50%;
+}
+
+.dos:hover:before {
+  left: 0;
+}*/
+
+.tres:before {
+  right: 0;
+}
